@@ -15,7 +15,7 @@
 - Build the container from the image (docker run -p 3000:3000 -v(pwd)/logs:/usr/app/logs –env-file .env nextgen.app:latest)
 - The last command is persisting the logs create a directory in your project directory named logs and this will save the logs in the output.txt in this directory
 
-Learning outcomes 
+## Learning outcomes 
 ✅ Created a full Express.js app without any frontend files all HTML served from app.js
 ✅ Used .env to make message and port configurable
 ✅ Built and ran a Docker container using a clean Dockerfile
